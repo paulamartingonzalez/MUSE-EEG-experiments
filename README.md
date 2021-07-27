@@ -10,7 +10,7 @@ The code here is based on the one available from MindMonitor [https://mind-monit
 
 - I calculate the relative brain waves at each time point using the description here [https://web.archive.org/web/20181105231756/http://developer.choosemuse.com/tools/available-data#Absolute_Band_Powers] and added some smoothing as well.
 
-- Also, I think it is very interesting to look at the changes in relative brain waves over different activities. I calculate the relative change in the last and final twenty seconds of each recording. (Before that, I removed the first and last ten seconds to avoid artifacts when starting or pausing the recording as I was doing this myself.)
+- Also, I think it is very interesting to look at the changes in relative brain waves over different activities. I calculate the relative change in the last and final twenty seconds of each recording. Before that, I removed the first and last ten seconds to avoid artifacts when starting or pausing the recording as I was doing this myself.
 
 ## Data:
 
